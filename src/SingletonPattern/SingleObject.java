@@ -6,14 +6,18 @@ package SingletonPattern;
 public class SingleObject {
     //create an object of SingleObject
     private static SingleObject instance = new SingleObject();
+
     //make the constructor private so that this class cannot be
 //instantiated
-    private SingleObject(){}
+    private SingleObject() {
+    }
+
     //Get the only object available
-    public static SingleObject getInstance(){
+    public static SingleObject getInstance() {
         return instance;
     }
-    public void showMessage(){
+
+    public void showMessage() {
         System.out.println("Hello World!");
     }
 }
