@@ -1,0 +1,7 @@
+# Build and Release Folders
+out/
+
+#jidea build
+.idea/
+
+DesignPatterns.iml
